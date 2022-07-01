@@ -29,9 +29,7 @@ import FooterSection from './Footer.vue'
 }
 .body{
     background-color: #f9f9f9;
-    height: 80%;
-    width: 80%;
-    /* border: 1px solid red; */
+    width: 100%;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -54,11 +52,6 @@ import FooterSection from './Footer.vue'
 }
 
 @media screen and (max-width: 768px) {
-    .body{
-    height: 85%;
-    width: 90%;
-}
-
     .heading{
     margin-bottom: 25px;
     font-size: 22px;
